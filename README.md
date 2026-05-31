@@ -1,12 +1,20 @@
+<div align="center">
+
 # derekhuynen-mcp-server
 
-> A production-grade reference implementation of a [Model Context Protocol](https://modelcontextprotocol.io) (MCP) server in TypeScript. One transport-agnostic core, two transports (**stdio** + **Streamable HTTP**), strict types, real tests, Docker, and CI. Clone it, read it, template it.
+### A production-grade reference MCP server in TypeScript: one core, two transports, strict types, real tests, Docker, and CI
 
 [![CI](https://github.com/derekhuynen/derekhuynen-mcp-server/actions/workflows/ci.yml/badge.svg)](https://github.com/derekhuynen/derekhuynen-mcp-server/actions/workflows/ci.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
 [![Node](https://img.shields.io/badge/node-%3E%3D20-brightgreen.svg)](https://nodejs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6.svg)](https://www.typescriptlang.org/)
 [![Model Context Protocol](https://img.shields.io/badge/MCP-server-7c3aed.svg)](https://modelcontextprotocol.io)
+
+![Claude calling the server's get_experience tool over the Model Context Protocol](docs/images/demo.png)
+
+</div>
+
+> A production-grade reference implementation of a [Model Context Protocol](https://modelcontextprotocol.io) (MCP) server in TypeScript. One transport-agnostic core, two transports (**stdio** + **Streamable HTTP**), strict types, real tests, Docker, and CI. Clone it, read it, template it.
 
 Most MCP examples are toy, single-file stdio scripts. This is what a **real** MCP server looks like: a clean core that registers tools, resources, and prompts once and serves them over two transports, backed by a validated data layer, a full test suite, a multi-stage Docker build, and CI.
 
@@ -69,9 +77,6 @@ The tool call behind that answer returns plain JSON:
   },
 ]
 ```
-
-<!-- Optional: record a short terminal/Claude screen capture and drop it in here for instant appeal. -->
-<!-- ![demo](docs/demo.gif) -->
 
 ## Quick start
 
@@ -137,6 +142,29 @@ curl http://localhost:3000/health
 ## Architecture
 
 A transport-agnostic core (`buildServer(profile)`) registers all tools, resources, and prompts against an in-memory profile loaded and validated from `src/data/profile.json`. Two thin entrypoints connect transports to a freshly built server:
+
+```mermaid
+flowchart TB
+    subgraph Clients["MCP clients"]
+        CD["Claude Desktop / Claude Code<br/>(stdio)"]
+        HC["HTTP client<br/>(Streamable HTTP)"]
+    end
+    subgraph Server["derekhuynen-mcp-server"]
+        STDIO["transports/stdio.ts"]
+        HTTPT["transports/http.ts<br/>Express: health, CORS, rate limit"]
+        CORE["buildServer(profile)<br/>tools · resources · prompts"]
+        Q["core/queries.ts<br/>(pure business logic)"]
+    end
+    DATA[("data/profile.json<br/>Zod-validated snapshot")]
+    CD --> STDIO
+    HC --> HTTPT
+    STDIO --> CORE
+    HTTPT --> CORE
+    CORE --> Q
+    Q --> DATA
+```
+
+The module layout:
 
 ```
 src/

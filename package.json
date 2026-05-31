@@ -1,7 +1,6 @@
 {
   "name": "derekhuynen-mcp-server",
   "version": "1.0.0",
-  "private": true,
   "description": "A production-grade MCP server exposing Derek Huynen's public professional profile over stdio and Streamable HTTP.",
   "type": "module",
   "license": "MIT",
