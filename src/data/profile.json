@@ -1,0 +1,372 @@
+{
+  "identity": {
+    "name": "Derek Huynen",
+    "title": "Senior AI Engineer | Full-Stack Developer | Technical Lead",
+    "location": "Reno, NV",
+    "workPreference": "Remote / Open to Relocation",
+    "email": "derek.huynen@gmail.com",
+    "links": {
+      "linkedin": "https://linkedin.com/in/derekhuynen",
+      "github": "https://github.com/derekhuynen",
+      "website": "https://derekhuynen.com"
+    }
+  },
+  "summary": "Senior AI and Full-Stack Engineer with 6+ years delivering production systems across Generative AI, cloud architecture, and enterprise product development. Deep expertise in RAG pipelines, AI chatbots, and intelligent document processing using Azure OpenAI, Azure AI Search, and Semantic Kernel. Proven technical leader who leads an 18–21 person cross-platform engineering team at T-Mobile and led an enterprise GitHub Copilot rollout that grew adoption to roughly 6,000 developers. Hands-on across the full stack: React/TypeScript frontends through C#/.NET backends and Azure cloud infrastructure. Looking to bring enterprise-scale AI and full-stack experience to a product-focused company.",
+  "skills": [
+    {
+      "category": "AI / GenAI",
+      "items": [
+        "Retrieval-Augmented Generation (RAG)",
+        "Azure OpenAI",
+        "Semantic Kernel",
+        "Azure AI Search",
+        "Prompt Engineering",
+        "AI Orchestration",
+        "Multi-Agent Orchestration",
+        "LLMs",
+        "MCP Servers",
+        "GitHub Copilot",
+        "Azure Document Intelligence",
+        "Embeddings",
+        "Semantic Search"
+      ]
+    },
+    {
+      "category": "Frontend",
+      "items": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "Next.js",
+        "Zustand",
+        "Redux",
+        "Redux-Saga",
+        "WebSockets",
+        "Tailwind CSS",
+        "Material UI",
+        "Web Components",
+        "Storybook",
+        "React Hook Form",
+        "Chart.js",
+        "Data Visualization"
+      ]
+    },
+    {
+      "category": "Backend",
+      "items": ["C#", ".NET", "Node.js", "Azure Functions", "REST APIs", "WebSocket Streaming"]
+    },
+    {
+      "category": "Cloud & Data",
+      "items": [
+        "Azure (Functions, CosmosDB, PostgreSQL, Blob Storage, AI Search, OpenAI, Document Intelligence, API Management, Event Hub, App Service, DevOps, Private Endpoints, Azure AD / Entra ID)",
+        "MySQL",
+        "Docker"
+      ]
+    },
+    {
+      "category": "Leadership & Practices",
+      "items": [
+        "Technical Leadership",
+        "Team Leadership",
+        "System Design & Architecture",
+        "Value Stream Mapping",
+        "Agile",
+        "Cross-functional Team Management",
+        "Developer Training & Workshops",
+        "Client & Stakeholder Management"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "slug": "ibm-tmobile-arrow",
+      "project": "Arrow Design System",
+      "title": "Lead Solution Engineer (Technical Lead)",
+      "employer": "IBM",
+      "start": "2025-11",
+      "end": "present",
+      "summary": "Technical lead for Arrow, T-Mobile's enterprise design system, directing component delivery across web, iOS, and Android while owning the web platform.",
+      "skills": [
+        "Technical Leadership",
+        "Design Systems",
+        "Web Components",
+        "CI/CD",
+        "SDK & Package Management",
+        "MCP Servers",
+        "Client & Stakeholder Management",
+        "Cross-platform Delivery",
+        "Agile Planning"
+      ],
+      "featured": true,
+      "client": "T-Mobile",
+      "industry": "Telecommunications",
+      "location": "Remote"
+    },
+    {
+      "slug": "ibm-tmobile-copilot-rollout",
+      "project": "Enterprise GitHub Copilot Rollout & Value Stream Mapping",
+      "title": "Senior Lead Developer (Lead & Tech Lead)",
+      "employer": "IBM",
+      "start": "2025-06",
+      "end": "2025-10",
+      "summary": "Led T-Mobile's enterprise GitHub Copilot rollout, growing adoption to roughly 6,000 developers and substantially increasing active usage.",
+      "skills": [
+        "Technical Leadership",
+        "Team Leadership",
+        "Value Stream Mapping",
+        "GitHub Copilot",
+        "Azure Functions",
+        "Azure AD",
+        "Microsoft Teams bots",
+        "Prompt Engineering",
+        "Developer Training",
+        "Metrics & Dashboards",
+        "Stakeholder Management"
+      ],
+      "featured": true,
+      "client": "T-Mobile",
+      "industry": "Telecommunications",
+      "location": "Remote"
+    },
+    {
+      "slug": "neudesic-sedgwick-copilot-vsm",
+      "project": "Copilot Enablement & Value Stream Mapping",
+      "title": "Developer Productivity Engineer (Technical Lead)",
+      "employer": "Neudesic (an IBM Company)",
+      "start": "2025-04",
+      "end": "2025-06",
+      "summary": "Led GitHub Copilot enablement and value stream mapping at Sedgwick - establishing the baseline SDLC metrics and reusable onboarding curriculum needed to measure AI-driven productivity gains as the company scaled AI across the org.",
+      "skills": [
+        "Technical Leadership",
+        "Value Stream Mapping",
+        "GitHub Copilot",
+        "Developer Training",
+        "Curriculum Design",
+        "Prompt Engineering",
+        "Metrics & Dashboards",
+        ".NET",
+        "React"
+      ],
+      "featured": true,
+      "client": "Sedgwick",
+      "industry": "Insurance / Claims Management",
+      "location": "Remote"
+    },
+    {
+      "slug": "neudesic-pge-genai-chatbot",
+      "project": "GenAI Regulatory Chatbot",
+      "title": "AI Developer",
+      "employer": "Neudesic (an IBM Company)",
+      "start": "2025-01",
+      "end": "2025-03",
+      "summary": "Core engineer on an enterprise RAG chatbot that let PG&E staff query regulatory, claims, and compliance documents in natural language with real-time, grounded citations.",
+      "skills": [
+        "RAG",
+        "Azure OpenAI",
+        "Semantic Kernel",
+        "Azure AI Search",
+        "Document Ingestion",
+        "Embeddings",
+        "C#/.NET",
+        "Azure Functions",
+        "React",
+        "Redux",
+        "WebSocket Streaming",
+        "Enterprise Security"
+      ],
+      "featured": true,
+      "client": "PG&E (Pacific Gas & Electric)",
+      "industry": "Utilities",
+      "location": "Remote"
+    },
+    {
+      "slug": "neudesic-hospital-doc-processing",
+      "project": "Hospital Rate-Sheet Document Processing",
+      "title": "Lead Developer & Architect",
+      "employer": "Neudesic (an IBM Company)",
+      "start": "2024-08",
+      "end": "2024-12",
+      "summary": "Sole developer on a document-processing proof-of-concept that ingested hospital rate sheets from three hospitals - multiple PDF formats each - and normalized them into a single queryable database, winning follow-on business for Neudesic.",
+      "skills": [
+        "Document Intelligence (OCR)",
+        "PDF Parsing",
+        "Data Normalization",
+        "Node.js",
+        "TypeScript",
+        "Azure CosmosDB",
+        "Azure Blob Storage",
+        "Jest",
+        "Solo Delivery",
+        "Client Communication"
+      ],
+      "featured": true,
+      "client": "Hospital claims agency (name withheld)",
+      "industry": "Healthcare",
+      "location": "Remote"
+    },
+    {
+      "slug": "neudesic-harpercollins-rag-chatbot",
+      "project": "Book Catalog RAG Chatbot",
+      "title": "AI Developer (Lead Developer)",
+      "employer": "Neudesic (an IBM Company)",
+      "start": "2024-06",
+      "end": "2024-08",
+      "summary": "Lead developer for the ingestion and retrieval layer of a RAG chatbot that let HarperCollins marketing teams semantically search 500 ingested books by subject, event, keyword, and metadata.",
+      "skills": [
+        "RAG",
+        "Azure OpenAI",
+        "Azure AI Search",
+        "Embeddings",
+        "Multi-Agent Orchestration",
+        "Semantic Search",
+        "Document Ingestion",
+        "Node.js",
+        "Azure Functions",
+        "React",
+        "CosmosDB"
+      ],
+      "featured": true,
+      "client": "HarperCollins",
+      "industry": "Publishing",
+      "location": "Remote"
+    },
+    {
+      "slug": "neudesic-amn-staffing",
+      "project": "Nurse Shift-Booking Platform",
+      "title": "Software Engineer (Full-Stack, Frontend-focused)",
+      "employer": "Neudesic (an IBM Company)",
+      "start": "2024-01",
+      "end": "2024-06",
+      "summary": "Full-stack engineer (frontend-focused) on AMN Healthcare's nurse shift-booking platform - the production web app travel nurses use to search, filter, and book hospital assignments nationwide.",
+      "skills": [
+        "React",
+        "TypeScript",
+        "Redux",
+        "Redux-Saga",
+        "React Hook Form",
+        "Material UI",
+        "Storybook",
+        "C#/.NET",
+        "Enterprise Frontend Architecture",
+        "Agile",
+        "Cross-team Coordination"
+      ],
+      "featured": true,
+      "client": "AMN Healthcare",
+      "industry": "Healthcare Staffing",
+      "location": "Remote"
+    },
+    {
+      "slug": "gexbot-frontend",
+      "project": "Gexbot - Options Analytics Platform",
+      "title": "Frontend Engineer (Freelance)",
+      "employer": "Gexbot",
+      "start": "2023",
+      "end": "present",
+      "summary": "Frontend engineer for gexbot.com - rebuilt a static, image-based options-analytics site into a real-time React app with custom, data-dense charts, now serving a 10,000+ trading community.",
+      "skills": [
+        "React",
+        "TypeScript",
+        "WebSockets",
+        "Zustand",
+        "Redux",
+        "Redux-Saga",
+        "Data Visualization",
+        "Chart.js",
+        "Real-time Systems",
+        "Frontend Architecture"
+      ],
+      "featured": true,
+      "client": "Gexbot",
+      "industry": "Fintech / Trading Analytics",
+      "location": "Remote"
+    },
+    {
+      "slug": "neudesic-amn-credentialing",
+      "project": "One Credentialing Rules Engine",
+      "title": "Software Engineer (Full-Stack, Frontend-focused)",
+      "employer": "Neudesic (an IBM Company)",
+      "start": "2022-10",
+      "end": "2023-12",
+      "summary": "Full-stack engineer (frontend-focused) on AMN Healthcare's One Credentialing rules engine - a production system automating nurse credentialing and compliance across hundreds of partner hospitals.",
+      "skills": [
+        "React",
+        "Redux",
+        "Redux-Saga",
+        "TypeScript",
+        "Material UI",
+        "C#/.NET",
+        "Enterprise Frontend Architecture",
+        "Storybook",
+        "Regression Testing",
+        "Agile",
+        "CosmosDB"
+      ],
+      "featured": true,
+      "client": "AMN Healthcare",
+      "industry": "Healthcare Staffing",
+      "location": "Remote"
+    },
+    {
+      "slug": "pines-cabin-rentals",
+      "project": "Pines Cabin Rentals",
+      "title": "Founder & Developer",
+      "employer": "Self-employed (Pines Cabin Rentals)",
+      "start": "2019-01",
+      "end": "2022-05",
+      "summary": "Founded and ran a 20+ property vacation-rental business while self-building its booking website and automation tooling - a 5-star Airbnb operation that also launched Derek's software career.",
+      "skills": [
+        "Entrepreneurship",
+        "Web Development",
+        "Automation",
+        "API Integration (Google Calendar)",
+        "Operations Management",
+        "Self-direction"
+      ],
+      "featured": true,
+      "industry": "Hospitality / Vacation Rentals",
+      "location": "Big Bear City, CA"
+    },
+    {
+      "slug": "del-sol-school",
+      "project": "Del Sol School - IT & Web",
+      "title": "IT / Web Developer",
+      "employer": "Del Sol School",
+      "start": "2016-11",
+      "end": "2019-01",
+      "summary": "Handled IT support and built a simple WordPress website for a private school - Derek's earliest tech role.",
+      "skills": ["IT Support", "WordPress", "Web Maintenance"],
+      "featured": false,
+      "industry": "Education",
+      "location": "Cypress, CA"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Gexbot - Live Options Analytics",
+      "description": "Real-time options-analytics frontend for active stock/options traders - custom data-dense charts and live market-data streaming over WebSockets; serves a 10,000+ community.",
+      "skills": ["React", "TypeScript", "WebSockets", "Zustand", "Chart.js"],
+      "url": "https://gexbot.com"
+    },
+    {
+      "name": "AI RAG Chatbot (2025)",
+      "description": "A C#/.NET Azure Functions + Semantic Kernel demo that ingests documents and uses Azure OpenAI + Azure AI Search for Retrieval-Augmented Generation, powering an agent-based chat API.",
+      "skills": [
+        "C#",
+        ".NET",
+        "Azure Functions",
+        "Semantic Kernel",
+        "Azure OpenAI",
+        "Azure AI Search"
+      ],
+      "url": "https://github.com/derekhuynen/AI_RAG_Chat_Bot_2025"
+    },
+    {
+      "name": "LinkedIn AI Auto Poster",
+      "description": "An AI-driven tool that automates creating and publishing engaging LinkedIn content using Azure OpenAI, for consistent, low-effort posting.",
+      "skills": ["Azure OpenAI"],
+      "url": "https://github.com/derekhuynen/LinkedIn_AI_Auto_Poster"
+    }
+  ],
+  "resume": "# Derek Huynen\n\n**Senior AI Engineer | Full-Stack Developer | Technical Lead**\n\nReno, NV (Remote / Open to Relocation) | derek.huynen@gmail.com\n[linkedin.com/in/derekhuynen](https://linkedin.com/in/derekhuynen) | [github.com/derekhuynen](https://github.com/derekhuynen) | [derekhuynen.com](https://derekhuynen.com)\n\n---\n\n## Summary\n\nSenior AI and Full-Stack Engineer with 6+ years delivering production systems across Generative AI, cloud architecture, and enterprise product development. Deep expertise in RAG pipelines, AI chatbots, and intelligent document processing with Azure OpenAI, Azure AI Search, and Semantic Kernel - hands-on from React/TypeScript frontends through C#/.NET backends. Proven technical leader who leads an 18–21 person cross-platform engineering team at T-Mobile and led a GitHub Copilot rollout that grew adoption to roughly 6,000 developers.\n\n---\n\n## Technical Skills\n\n**AI / GenAI:** RAG, Azure OpenAI, Semantic Kernel, Azure AI Search, Prompt Engineering, Multi-Agent Orchestration, LLMs, MCP Servers, GitHub Copilot, Document Intelligence\n\n**Frontend:** React, TypeScript, JavaScript, Next.js, Zustand, Redux, Redux-Saga, WebSockets, Tailwind CSS, Material UI, Web Components, Storybook, Chart.js\n\n**Backend:** C#, .NET, Node.js, Azure Functions, REST APIs, WebSocket Streaming\n\n**Cloud & Data:** Azure (Functions, CosmosDB, PostgreSQL, Blob Storage, AI Search, OpenAI, Document Intelligence, API Management, Event Hub, App Service, DevOps, Private Endpoints, Azure AD), MySQL, Docker\n\n**Leadership:** Technical Leadership, Team Leadership, System Design & Architecture, Value Stream Mapping, Agile, Developer Training & Workshops\n\n---\n\n## Experience\n\n### IBM - Senior Software Engineer\n\n**Jun 2025 – Present | Remote**\n_Deployed to T-Mobile as Lead Solution Engineer across two engagements._\n\n**T-Mobile, Arrow Design System - Lead Solution Engineer** _(Nov 2025 – Present)_\n\n- Technical lead of an 18–21 person cross-platform engineering team delivering Arrow, T-Mobile's enterprise design system, across web, iOS, and Android.\n- Own the web platform end-to-end: reviewing components and merge requests, maintaining the SDK, and building the CI/CD pipelines.\n- Serve as primary client interface with T-Mobile leadership and a large design organization, covering planning and coordination.\n- Built an MCP server exposing live design-system documentation to AI coding tools, easing component adoption for downstream teams.\n- **Stack:** Web Components, Storybook, Swift, Kotlin, CI/CD, MCP Servers\n\n**T-Mobile, Enterprise GitHub Copilot Rollout - Senior Lead Developer** _(Jun 2025 – Oct 2025)_\n\n- Led T-Mobile's enterprise GitHub Copilot rollout as delivery and technical lead of a small cross-functional team, partnering directly with senior IT leadership.\n- Grew adoption to roughly 6,000 developers and substantially increased daily and weekly active usage.\n- Built automated self-service access management (Microsoft Teams bot, Azure Function, Azure AD group) plus a live leadership metrics dashboard.\n- Ran value stream mapping to baseline SDLC lead/cycle times and delivered tailored Copilot training workshops.\n- **Stack:** Azure Functions, Azure AD, Microsoft Teams bot, GitHub Copilot\n\n### Neudesic, an IBM Company - Senior Consultant\n\n**May 2022 – Jun 2025 | Remote / Hybrid**\n_Delivered enterprise AI and full-stack solutions for clients across healthcare, utilities, publishing, and telecom._\n\n**PG&E, GenAI Regulatory Chatbot - AI Developer** _(Jan 2025 – Mar 2025)_\n\n- Core engineer on a proof-of-concept enterprise RAG chatbot letting staff query regulatory, claims, and compliance documents with grounded, cited answers.\n- Led the ingestion/vectorization workstream and built the RAG retrieval flow with Azure OpenAI and Azure AI Search; integrated Semantic Kernel (C#/.NET) and real-time WebSocket streaming.\n- **Stack:** Azure OpenAI, Azure AI Search, Semantic Kernel, C#/.NET, React, WebSockets\n\n**Sedgwick, Copilot Enablement & Value Stream Mapping - Developer Productivity Engineer** _(Apr 2025 – Jun 2025)_\n\n- Led GitHub Copilot enablement and value stream mapping to establish a productivity baseline ahead of org-wide AI adoption, building a reusable onboarding curriculum and training pilot teams (.NET, React).\n- Delivered a baseline value-stream map quantifying current workflow cost - findings that directly won follow-on AI work.\n\n**HarperCollins, Book Catalog RAG Chatbot - Lead Developer** _(Jun 2024 – Aug 2024)_\n\n- Lead developer for the ingestion and retrieval layer of a RAG chatbot over HarperCollins's catalog (500 books); built the ingestion pipeline and a retrieval engine using semantic search and LLM multi-agent orchestration.\n- Engineered hybrid retrieval blending vector similarity with metadata filtering for precise, multi-faceted queries.\n- **Stack:** Azure OpenAI, Azure AI Search, Node.js, React, Multi-Agent Orchestration\n\n**Confidential Hospital Claims Agency, Document Processing - Lead Developer & Architect** _(Aug 2024 – Dec 2024)_\n\n- Sole developer on a document-processing proof-of-concept that ingested hospital rate sheets from three hospitals (nine PDF formats) into a single normalized database, building parsing plugins on Azure Document Intelligence (OCR) hardened against years of edge-case document errors.\n- POC success helped win a larger follow-on engagement.\n- **Stack:** Node.js, TypeScript, Azure Document Intelligence, CosmosDB\n\n**AMN Healthcare - Software Engineer (Full-Stack, Frontend-focused)** _(Oct 2022 – Jun 2024)_\n\n- Built production frontends across AMN's nationwide nurse-staffing platform - the shift-booking workflow (complex multi-step forms, advanced filtering) and the One Credentialing rules engine (admin portal + auditing dashboards) serving hundreds of partner hospitals.\n- Delivered within a ~15-team enterprise program using React, Redux/Redux-Saga, Material UI, and C#/.NET.\n\n### Gexbot - Frontend Engineer (Freelance) · 2023 – Present\n\n- Rebuilt the [gexbot.com](https://gexbot.com) frontend from static 10-second chart images into a real-time React options-analytics app now serving a 10,000+ trader community.\n- Designed custom, data-dense charts (Chart.js) and added live market-data streaming over WebSockets.\n- Refactored state management from Redux/Redux-Saga to Zustand, cutting complexity and improving performance.\n- **Stack:** React, TypeScript, WebSockets, Zustand, Chart.js\n\n### Pines Cabin Rentals - Founder & Developer · Jan 2019 – May 2022\n\n- Founded and ran a 20+ property vacation-rental business (5-star Airbnb, 100+ reviews) while self-teaching software development - building the booking website and automation for booking reconciliation and cleaning schedules.\n\n---\n\n## Education\n\n**Bachelor's Degree** - California State University, Long Beach\n\n---\n\n## Certifications\n\n| Certification                        | Issuer    | Year |\n| ------------------------------------ | --------- | ---- |\n| Azure AI Engineer Associate (AI-102) | Microsoft | 2025 |\n| Azure AI Fundamentals (AI-900)       | Microsoft | 2023 |\n| Azure Fundamentals (AZ-900)          | Microsoft | 2023 |\n| Azure Data Fundamentals (DP-900)     | Microsoft | 2023 |\n| Power Platform Fundamentals (PL-900) | Microsoft | 2023 |\n"
+}
